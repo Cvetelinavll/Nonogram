@@ -1,12 +1,7 @@
 #PYGAME NONOGRAM DEMO
-import os
-import sys
-import random
 import pygame
-from console_engine_deploy import *
-from console_engine_deploy import puzzle, grid, row_hints, col_hints
-
-
+import requests
+import time
 
 # Initialize game engine
 pygame.init()
